@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "env": {
+    "DATABASE_URL": "postgresql://postgres:12345@localhost:5432/product_db"
+  },
   "builds": [
     {
       "src": "src/main.ts",
